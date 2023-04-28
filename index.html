@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Adora Filmes</title>
+    </head>
+    <body>
+        <header>
+   
+            <h1> Adoro Filmes </h1>
+       
+        </header>
+           
+
+
+
+
+            <div class="flex-container">
+
+
+
+
+            <div>
+            <img src="Nova pasta/El-Camino.jpg">
+            </div>
+           
+            <div>
+            <img src="Nova pasta/O-Farol.jpg">
+            </div>
+
+
+
+
+            <div>
+            <img src="Nova pasta/Bird-Box.jpg">
+            </div>
+
+
+        </div>
+
+
+        <main>
+           
+            <h2>AVALIE OS FILMES EM DESTAQUE</h2>
+
+
+
+
+            <p>A avalie o filme e calcularemos a nota feita por fans</p>
+
+            <form>
+                <label for="filmes">Escolha um filme:</label>
+                <select id="filmes">
+                    <option value="0">Selecione</option>
+                    <option value="1">El camino</option>
+                    <option value="2">Bird Box</option>
+                    <option value="3">O Farol</option>
+                </select>
+                <label for="nota">Dê uma nota (0-10):</label>
+                <input type="number" id="nota" min="0" max="10" required>
+                <button type="button" onclick="darNota()">Enviar</button>
+            </form>
+
+            <h2>Média das notas</h2>
+    <form>
+        <label for="filmes-media">Escolha um filme:</label>
+        <select id="filmes-media">
+            <option value="0">Selecione</option>
+            <option value="1">El camino</option>
+            <option value="2">Bird Box</option>
+            <option value="3">O Farol</option>
+        </select>
+        <button type="button" onclick="calcularMedia()">Calcular</button>
+    </form>
+
+
+
+
+   
+        </main>
+        <script src="index.js"></script>
+    </body>
+    </html>
+</body>
+</html>
+
+
+
+

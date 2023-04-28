@@ -1,0 +1,72 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+
+
+
+header{
+    background-color: #ff862c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+
+
+
+
+body{
+    background-color: #150a16;
+}
+
+
+
+
+main{
+    background-color: #342146;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+
+
+
+div{
+    display:flex;
+    flex-direction: row;
+    height: 360px;
+
+
+}
+
+
+h2{
+    color:rgb(209, 2, 2);
+    text-align: center;
+    height: 100px;
+}
+
+
+p{
+    text-align: center;
+    height: 50px;
+    margin: 0%;
+}
+
+
+form{
+    text-align: center;
+    height: 25px;
+    margin-top: 0%;
+
+
+
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
